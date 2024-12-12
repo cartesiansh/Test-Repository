@@ -12,5 +12,4 @@ def greet(who_to_greet):
 
 
 r = requests.get("https://w3schools.com/python/demopage.htm")
-print(r)
 print(r.status_code)
